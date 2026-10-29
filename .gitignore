@@ -1,0 +1,30 @@
+# Môi trường ảo Python
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Video dung lượng lớn (>100MB sẽ bị GitHub chặn push)
+*.mp4
+*.mov
+*.avi
+*.mkv
+!sample.mp4
+
+# Kết quả xuất tạm / logs
+result/
+*.log
+debug_out.txt
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
